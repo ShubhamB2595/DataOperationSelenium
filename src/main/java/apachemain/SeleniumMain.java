@@ -12,7 +12,6 @@ public class SeleniumMain {
 	public static void main(String[] args) throws IOException {
 		
 //		excelOperations.readingExcelForLoop();
-//		excelOperations.readingExcelIterator();
 		excelOperations.writingExcel();
 	}
 
