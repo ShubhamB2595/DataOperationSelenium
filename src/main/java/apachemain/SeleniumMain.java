@@ -6,13 +6,14 @@ import operations.ExcelOperations;
 
 public class SeleniumMain {
 
+	static ExcelOperations excelOperations = new ExcelOperations();
+	
 	
 	public static void main(String[] args) throws IOException {
 		
-		ExcelOperations excelOperations = new ExcelOperations();
-		
 //		excelOperations.readingExcelForLoop();
-		excelOperations.readingExcelIterator();
+//		excelOperations.readingExcelIterator();
+		excelOperations.writingExcel();
 	}
 
 }
